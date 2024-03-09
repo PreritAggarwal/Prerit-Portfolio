@@ -1,0 +1,177 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5; /* Light gray background */
+}
+
+header {
+  background: linear-gradient(to right, #3498db, #2c3e50); /* Blue to dark gray gradient */
+  color: #fff;
+  text-align: left;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #f39c12; /* Orange on hover */
+}
+
+section {
+  background-color: #ecf0f1; /* Light gray background */
+  padding: 40px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+  transform: scale(1.02);
+}
+
+.projects-container {
+  
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.projects-item {
+  background-color: #fff;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.projects-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.projects-item h3 {
+  color: #3498db; /* Blue project title */
+  margin-bottom: 10px;
+}
+
+
+
+footer {
+  background: linear-gradient(to right, #3498db, #2c3e50);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.about-content h2 {
+  color: #000000; 
+}
+.certificates-section {
+  background-color: #ecf0f1; /* Light gray background */
+  padding: 40px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.certificates-section:hover {
+  transform: scale(1.02);
+}
+
+.certificates-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow certificates to wrap to the next line */
+  justify-content: space-around;
+}
+
+.certificate-item {
+  flex: 0 1 calc(33.33% - 30px); /* Adjust width based on your layout */
+  background-color: #fff;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.certificate-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-item h3 {
+  color: #3498db; /* Blue certificate title */
+  margin-bottom: 10px;
+}
+
+.certificate-item p {
+  color: #555; /* Dark gray text color for additional details */
+}
+
+
+.certificate-item a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 10px; /* Add some spacing between certificate details and the button */
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db; /* Blue background color for buttons */
+  border-radius: 5px; /* Add rounded corners to the buttons */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.certificate-item a:hover {
+  background-color: #2980b9; /* Darker blue background on hover */
+}
+/* Media Queries for Responsive Design */
+/* Existing styles for larger screens */
+
+@media screen and (max-width: 1024px) {
+  /* Tablet Styles */
+  section#about {
+    padding: 20px; /* Adjust padding for tablet layout */
+  }
+
+  .profile-container {
+    text-align: center; /* Center the profile image on tablets */
+  }
+
+  .profile-image {
+    max-width: 100%; /* Make sure the image is responsive on smaller screens */
+  }
+
+  .about-content {
+    margin-top: 20px; /* Adjust margin for tablet layout */
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  /* Desktop Styles */
+  body {
+    font-size: 15px;
+  }
+}
+
+
+
+

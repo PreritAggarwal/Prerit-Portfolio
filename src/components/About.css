@@ -1,0 +1,36 @@
+/* App.css or About.css */
+
+.about-section {
+    display: flex;
+    justify-content: justify;
+    align-items: justify;
+    text-align: justify;
+  }
+  
+  .profile-container {
+    margin-right: 60px;
+    text-align: left;
+  }
+  
+  .profile-image {
+    max-width: 180px; /* Adjust the size as needed */
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    
+  }
+  
+  .about-content {
+    
+  }
+  
+  .about-content h2 {
+    color: #000000; /* Adjust the color of the heading */
+    text-align: left;
+  }
+  
+  .about-content p {
+    color: #000000;
+    line-height: 1.6;
+  }
+  
